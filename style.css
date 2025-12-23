@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #121212;
+  color: #e5e5e5;
+}
+
+/* 全体レイアウト */
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* 左ペイン */
+.sidebar {
+  width: 220px;
+  background: #1e1e1e;
+  padding: 16px;
+  border-right: 1px solid #2a2a2a;
+}
+
+.site-title {
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+
+/* ナビ */
+.sidebar a {
+  display: block;
+  padding: 8px 10px;
+  margin-bottom: 4px;
+  color: #cfcfcf;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.sidebar a:hover {
+  background: #2a2a2a;
+}
+
+.sidebar a.active {
+  background: #094771;
+  color: #fff;
+}
+
+/* 右側 */
+.main {
+  flex: 1;
+  padding: 24px;
+}
+
+details {
+  margin-bottom: 12px;
+}
+
+summary {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 6px;
+}
+
+.skin-shot {
+  width: 75%;
+  border-radius: 6px;
+  display: block;
+}
+
+.skin-link {
+  display: block;
+  padding: 8px;
+  border-radius: 6px;
+  color: #1D9BF0;
+}
+
+
+.skin-name {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
